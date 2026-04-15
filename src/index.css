@@ -13,24 +13,4 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
-}
 
-.square {
-  background: #fff;
-  border: 1px solid #999;
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  padding: 0;
-  text-align: center;
-  width: 34px;
-}
-
-.board-row{
-  display: flex;
-}
