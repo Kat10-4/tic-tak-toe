@@ -22,3 +22,12 @@
   height: 34px;
   text-align: left;
 }
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
