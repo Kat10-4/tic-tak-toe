@@ -1,18 +1,25 @@
-# React + Vite
+# 🎯 Tic-Tac-Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A tic-tac-toe game that:
+- Lets you play tic-tac-toe
+- Indicates when a player has won the game
+- Stores a game's history as a game progresses
+- Allows players to review a game's history and see previous versions of a game's board
+`
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+[View the live demo](https://kat10-4.github.io/tic-tak-toe/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Built With
+- **React** - UI library
+- **CSS3** - Styling
+- **Vite/Create React App** - Build tool
 
-## React Compiler
+## 🎮 How to Play
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. The game starts with Player X
+2. Click any empty square to place your mark
+3. Players alternate turns automatically
+4. First to get 3 in a row (horizontal, vertical, or diagonal) wins
+5. If all 9 squares fill without a winner, it's a draw
+6. Use the history sidebar to jump back to any previous move
